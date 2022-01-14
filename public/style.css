@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: linear-gradient(90deg, #CCD1E4, #bcc4da);
+}
+
+#root {
+    width: 100%;
+    padding: 5px;
+}
+
+.template-list {
+    background: #8267BE;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+
+.card {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 350px;
+}
+
+.card-bottons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    gap: 5px;
+}
+
+.card .fa-cart-plus {
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: green;
+}
+
+.btn {
+    border: 3px solid black;
+    font-weight: 700;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    transition: 0.2s ease-in;
+}
+
+.fa-star {
+    color: rgb(165, 189, 10);
+}
